@@ -25,8 +25,8 @@ public void keyPressed() {
     for (int i=0; i<1; i++) {
       bob.setXspeed(0);
       bob.setYspeed(0);
-      bob.myCenterX=(int)(Math.random()*400);
-      bob.myCenterY=(int)(Math.random()*400);
+      bob.setX((int)(Math.random()*400));
+      bob.setY((int)(Math.random()*400));
     }
   }
   if (keyPressed) {
